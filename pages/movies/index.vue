@@ -1,3 +1,3 @@
 <template>
-    <movies-detail />
+    <movies />
 </template>

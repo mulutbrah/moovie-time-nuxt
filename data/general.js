@@ -24,6 +24,29 @@ export const MOVIES = [
     img: 'https://via.placeholder.com/400x600?text=The+Incredible+Journey',
     year: '2020',
     slug: 'the-incredible-journey',
+    banner: 'https://via.placeholder.com/1200x400',
+    description:
+      'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
   {
     title: 'Escape Room',
@@ -31,6 +54,29 @@ export const MOVIES = [
     img: 'https://via.placeholder.com/400x600?text=Escape+Room',
     year: '2020',
     slug: 'escape-room',
+    banner: 'https://via.placeholder.com/1200x400',
+    description:
+      'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
   {
     title: 'The Jungle Book',
@@ -38,6 +84,29 @@ export const MOVIES = [
     img: 'https://via.placeholder.com/400x600?text=The+Jungle+Book',
     year: '2020',
     slug: 'the-jungle-book',
+    banner: 'https://via.placeholder.com/1200x400',
+    description:
+      'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
   {
     title: 'The Lion King',
@@ -45,6 +114,29 @@ export const MOVIES = [
     img: 'https://via.placeholder.com/400x600?text=The+Lion+King',
     year: '2020',
     slug: 'the-lion-king',
+    banner: 'https://via.placeholder.com/1200x400',
+    description:
+      'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
   {
     title: 'Jurassic Park',
@@ -52,6 +144,29 @@ export const MOVIES = [
     img: 'https://via.placeholder.com/400x600?text=Jurassic+Park',
     year: '2020',
     slug: 'jurassic-park',
+    banner: 'https://via.placeholder.com/1200x400',
+    description:
+      'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
   {
     title: 'Toy Story',
@@ -59,6 +174,29 @@ export const MOVIES = [
     img: 'https://via.placeholder.com/400x600?text=Toy+Story',
     year: '2020',
     slug: 'toy-story',
+    banner: 'https://via.placeholder.com/1200x400',
+    description:
+      'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
   {
     title: 'The Matrix',
@@ -66,6 +204,29 @@ export const MOVIES = [
     img: 'https://via.placeholder.com/400x600?text=The+Matrix',
     year: '2020',
     slug: 'the-matrix',
+    banner: 'https://via.placeholder.com/1200x400',
+    description:
+      'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
   {
     title: 'Inception',
@@ -73,6 +234,29 @@ export const MOVIES = [
     img: 'https://via.placeholder.com/400x600?text=Inception',
     year: '2020',
     slug: 'inception',
+    banner: 'https://via.placeholder.com/1200x400',
+    description:
+      'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
   {
     title: 'The Godfather',
@@ -80,6 +264,29 @@ export const MOVIES = [
     img: 'https://via.placeholder.com/400x600?text=The+Godfather',
     year: '2020',
     slug: 'the-godfather',
+    banner: 'https://via.placeholder.com/1200x400',
+    description:
+      'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
   {
     title: 'Star Wars',
@@ -87,6 +294,29 @@ export const MOVIES = [
     img: 'https://via.placeholder.com/400x600?text=Star+Wars',
     year: '2020',
     slug: 'star-wars',
+    banner: 'https://via.placeholder.com/1200x400',
+    description:
+      'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
 ]
 
@@ -98,6 +328,26 @@ export const TOP_MOVIES = [
     year: '2020',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
   {
     title: 'Escape Room',
@@ -106,6 +356,26 @@ export const TOP_MOVIES = [
     year: '2020',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
   {
     title: 'The Jungle Book',
@@ -114,6 +384,26 @@ export const TOP_MOVIES = [
     year: '2020',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
   {
     title: 'The Lion King',
@@ -122,6 +412,26 @@ export const TOP_MOVIES = [
     year: '2020',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
   {
     title: 'Jurassic Park',
@@ -130,6 +440,26 @@ export const TOP_MOVIES = [
     year: '2020',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
+    genre: ['Fantasy', 'Action', 'Adventure'],
+    budget: '$200,000,000.00',
+    votes: '700',
+    status: 'Released',
+    lang: 'English',
+    production: 'DC Entertainment',
+    reviews: [
+      {
+        name: 'Alex',
+        content: 'Awesome movie!',
+        rating: '8',
+        date: '17-April-2023',
+      },
+      {
+        name: 'Thomas',
+        content: 'Need to improve',
+        rating: '6',
+        date: '18-April-2023',
+      },
+    ],
   },
 ]
 

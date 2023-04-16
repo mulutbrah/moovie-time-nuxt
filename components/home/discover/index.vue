@@ -19,8 +19,7 @@
 
             <div class="grid grid-cols-5 gap-6">
                 <cards :movie="movie" v-for="(movie, index) in movies" :key="index" 
-                    @click="onMovieDetail(movie.slug)"
-                    @on:redirect="onRedirectTo"
+                    @on:redirect="onRedirectTo(movie.slug)"
                 />
             </div>
         </div>
