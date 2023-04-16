@@ -2,13 +2,13 @@
     <div class="discover">
         <div class="blank">&nbsp;</div>
 
-        <div class="discover-movies container mx-auto">
+        <div class="discover-movies container mx-auto pb-5">
             <div class="flex justify-between items-center">
                 <h3 class="title">Movies</h3>
             </div>
 
             <div class="flex">
-                <div class="mr-3">
+                <div class="mr-3 pt-3">
                     <movies-filter />
                 </div>
 
@@ -18,6 +18,12 @@
                             @click="onMovieDetail(movie.slug)"
                             @on:redirect="onRedirectTo"
                         />
+                    </div>
+
+                    <div class="mx-auto text-center">
+                        <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full mr-2" @click="onLoadMoreMovies">
+                            Load More
+                        </button>
                     </div>
                 </div>
             </div>
@@ -36,6 +42,10 @@ export default {
     methods: {
         onRedirectTo(slug) {
             this.$router.push(`/movies/${slug}`)
+        },
+
+        onLoadMoreMovies() {
+            this.movies = this.movies.concat(MOVIES)
         }
     },
 }

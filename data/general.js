@@ -159,3 +159,26 @@ export const SORT_MOVIES = [
     key: 'rating_descending',
   },
 ]
+
+export const GENRES = [
+  {
+    name: 'Action',
+    key: 'action',
+  },
+  {
+    name: 'Adventure',
+    key: 'adventure',
+  },
+  {
+    name: 'Animation',
+    key: 'animation',
+  },
+  {
+    name: 'Comedy',
+    key: 'comedy',
+  },
+  {
+    name: 'Crime',
+    key: 'crime',
+  },
+]
