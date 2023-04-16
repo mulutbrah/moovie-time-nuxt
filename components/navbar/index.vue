@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <div class="container mx-auto flex justify-between items-center">
+    <div class="container mx-auto flex justify-between items-center h-full">
       <div>
         <logo-moovie-time />
       </div>
