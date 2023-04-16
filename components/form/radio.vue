@@ -4,7 +4,9 @@
       <label :for="datum.key" class="mr-3">
         {{ datum.name }}
       </label>
-      <input :id="datum.key" type="checkbox" class="form-checkbox h-5 w-5 text-indigo-600 order-last">
+      <input :id="datum.key" type="checkbox" 
+      @click="updateQueryParam(datum.key)"
+      class="form-checkbox h-5 w-5 text-indigo-600 order-last">
     </div>
   </div>
 </template>
@@ -17,6 +19,12 @@ export default {
       required: true
     },
   },
+
+  methods: {
+    updateQueryParam(value) {
+      this.$emit('on:click', value)
+    }
+  }
 };
 </script>
 

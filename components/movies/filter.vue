@@ -16,7 +16,7 @@
 
     <div>
         <div class="py-4">
-            <form-radio :data="genres" />
+            <form-radio :data="genres" @on:click="updateQueryParam" />
         </div>
     </div>
   </div>
@@ -30,6 +30,12 @@ export default {
         options: SORT_MOVIES,
         genres: GENRES
     }),
+
+    methods: {
+        updateQueryParam(value) {
+            this.$emit('on:click', value)
+        }
+    }
 }
 </script>
 

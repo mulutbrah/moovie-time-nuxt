@@ -27,7 +27,7 @@ export const MOVIES = [
     banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
-    genre: ['Fantasy', 'Action', 'Adventure'],
+    genre: ['action', 'adventure'],
     budget: '$200,000,000.00',
     votes: '700',
     status: 'Released',
@@ -57,7 +57,7 @@ export const MOVIES = [
     banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
-    genre: ['Fantasy', 'Action', 'Adventure'],
+    genre: ['comedy'],
     budget: '$200,000,000.00',
     votes: '700',
     status: 'Released',
@@ -87,7 +87,7 @@ export const MOVIES = [
     banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
-    genre: ['Fantasy', 'Action', 'Adventure'],
+    genre: ['crime', 'action', 'adventure'],
     budget: '$200,000,000.00',
     votes: '700',
     status: 'Released',
@@ -117,7 +117,7 @@ export const MOVIES = [
     banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
-    genre: ['Fantasy', 'Action', 'Adventure'],
+    genre: ['action', 'animation'],
     budget: '$200,000,000.00',
     votes: '700',
     status: 'Released',
@@ -147,7 +147,7 @@ export const MOVIES = [
     banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
-    genre: ['Fantasy', 'Action', 'Adventure'],
+    genre: ['action', 'adventure'],
     budget: '$200,000,000.00',
     votes: '700',
     status: 'Released',
@@ -177,7 +177,7 @@ export const MOVIES = [
     banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
-    genre: ['Fantasy', 'Action', 'Adventure'],
+    genre: ['fantasy', 'action', 'adventure'],
     budget: '$200,000,000.00',
     votes: '700',
     status: 'Released',
@@ -207,7 +207,7 @@ export const MOVIES = [
     banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
-    genre: ['Fantasy', 'Action', 'Adventure'],
+    genre: ['fantasy', 'action', 'adventure'],
     budget: '$200,000,000.00',
     votes: '700',
     status: 'Released',
@@ -237,7 +237,7 @@ export const MOVIES = [
     banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
-    genre: ['Fantasy', 'Action', 'Adventure'],
+    genre: ['fantasy', 'action', 'comedy'],
     budget: '$200,000,000.00',
     votes: '700',
     status: 'Released',
@@ -267,7 +267,7 @@ export const MOVIES = [
     banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
-    genre: ['Fantasy', 'Action', 'Adventure'],
+    genre: ['fantasy', 'action', 'comedy'],
     budget: '$200,000,000.00',
     votes: '700',
     status: 'Released',
@@ -297,7 +297,7 @@ export const MOVIES = [
     banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
-    genre: ['Fantasy', 'Action', 'Adventure'],
+    genre: ['fantasy'],
     budget: '$200,000,000.00',
     votes: '700',
     status: 'Released',
