@@ -1,5 +1,5 @@
 <template>
-  <div class="movie-card">
+  <div class="movie-card py-12">
     <div>
       <img :src="data.img" :alt="data.title">
     </div>
@@ -41,7 +41,7 @@ export default {
 
   img {
     width: 100%;
-    max-height: 400px;
+    max-height: 360px;
     object-fit: cover;
   }
 

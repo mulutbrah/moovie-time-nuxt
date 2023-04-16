@@ -1,19 +1,22 @@
 <template>
-  <div class="flex justify-evenly items-center navbar">
-    <div>
-      <logo-moovie-time />
-    </div>
-    <div>
-      <searchbar placeholder="Find Movie" />
-    </div>
-    <div class="menu flex items-center justify-between">
-      <div 
-        class="flex items-center mr-4"
-        v-for="(menu, index) in items" :key="index">
-        <component :is="menu.logo"  class="mr-1"/>
-        <span>{{ menu.title }}</span>
+  <div class="navbar">
+    <div class="container mx-auto flex justify-between items-center">
+      <div>
+        <logo-moovie-time />
+      </div>
+      <div>
+        <searchbar placeholder="Find Movie" />
+      </div>
+      <div class="menu flex items-center justify-between">
+        <div 
+          class="flex items-center mr-4"
+          v-for="(menu, index) in items" :key="index">
+          <component :is="menu.logo"  class="mr-1"/>
+          <span>{{ menu.title }}</span>
+        </div>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -47,7 +50,6 @@ export default {
 .navbar {
   background-color: rgb(72, 72, 72);
   height: 66px;
-  padding: 0 120px;
   width: 100%;
 
   .menu {

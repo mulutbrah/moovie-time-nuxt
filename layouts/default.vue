@@ -3,7 +3,7 @@
     <nav>
       <navbar />
     </nav>
-    <main class="container">
+    <main>
       <Nuxt />
     </main>
     <footer>
@@ -15,9 +15,5 @@
 <style lang="scss" scoped>
 .vue-app {
   background-color: rgb(60 60 60);
-
-  .container {
-    padding: 0 120px;
-  }
 }
 </style>

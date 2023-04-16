@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container mx-auto">
     <VueSlickCarousel :arrows="true" :dots="false">
       <cards-carousel :data="movie" v-for="(movie, index) in movies" :key="index" />
     </VueSlickCarousel>
