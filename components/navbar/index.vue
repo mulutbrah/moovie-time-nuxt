@@ -5,7 +5,7 @@
         <logo-moovie-time />
       </div>
       <div>
-        <searchbar placeholder="Find Movie" />
+        <searchbar placeholder="Find Movie" :value="search" @on:enter="onEnter" />
       </div>
       <div class="menu flex items-center justify-between">
         <div 
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import { MENUS } from "@/data/general";
+import { MENUS, MOVIES } from "@/data/general";
 import CategoryIcon from '@/components/logo/category.vue';
 
 export default {
@@ -36,6 +36,8 @@ export default {
       loadingLogout: false,
     },
     items: MENUS,
+    movies: MOVIES,
+    search: ''
   }),
   methods: {
     onHomePage() {
@@ -51,6 +53,12 @@ export default {
     onGoBack() {
       this.$router.go(-1);
     },
+
+    onEnter(value) {
+      let res = this.movies.find(item => item.title.toLowerCase().includes(value))
+      
+      this.$router.push(`/movies/${res.slug}`)
+    }
   },
 };
 </script>

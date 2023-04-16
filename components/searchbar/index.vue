@@ -1,7 +1,9 @@
 <template>
     <div class="searchbar flex items-center">
         <logo-movie class="searchbar__logo" />
-        <input class="searchbar__input" type="text" :placeholder="placeholder">
+        <input v-model="searchTerm" class="searchbar__input" type="text" :placeholder="placeholder"
+            @keyup.enter="onEnter"
+        >
     </div>
 </template>
 
@@ -12,6 +14,18 @@ export default {
             type: String,
             default: () => ''
         },
+    },
+
+    data() {
+        return {
+            searchTerm: '',
+        };
+    },
+
+    methods: {
+        onEnter() {
+            this.$emit('on:enter', this.searchTerm)
+        }
     }
 }
 </script>
