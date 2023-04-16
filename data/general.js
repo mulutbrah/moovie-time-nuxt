@@ -326,6 +326,8 @@ export const TOP_MOVIES = [
     rating: 4.5,
     img: 'https://via.placeholder.com/400x600?text=The+Incredible+Journey',
     year: '2020',
+    slug: 'the-incredible-journey',
+    banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
     genre: ['Fantasy', 'Action', 'Adventure'],
@@ -354,6 +356,8 @@ export const TOP_MOVIES = [
     rating: 3.8,
     img: 'https://via.placeholder.com/400x600?text=Escape+Room',
     year: '2020',
+    slug: 'escape-room',
+    banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
     genre: ['Fantasy', 'Action', 'Adventure'],
@@ -382,6 +386,8 @@ export const TOP_MOVIES = [
     rating: 4.2,
     img: 'https://via.placeholder.com/400x600?text=The+Jungle+Book',
     year: '2020',
+    slug: 'the-jungle-book',
+    banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
     genre: ['Fantasy', 'Action', 'Adventure'],
@@ -410,6 +416,8 @@ export const TOP_MOVIES = [
     rating: 4.7,
     img: 'https://via.placeholder.com/400x600?text=The+Lion+King',
     year: '2020',
+    slug: 'the-lion-king',
+    banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
     genre: ['Fantasy', 'Action', 'Adventure'],
@@ -438,6 +446,8 @@ export const TOP_MOVIES = [
     rating: 4.9,
     img: 'https://via.placeholder.com/400x600?text=Jurassic+Park',
     year: '2020',
+    slug: 'jurassic-park',
+    banner: 'https://via.placeholder.com/1200x400',
     description:
       'When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy thats known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.',
     genre: ['Fantasy', 'Action', 'Adventure'],
