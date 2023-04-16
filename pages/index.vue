@@ -1,9 +1,12 @@
 <template>
-  <Tutorial />
+  <div>
+    <home-carousel />
+    <home-discover />
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
+  layout: 'default'
 }
 </script>
