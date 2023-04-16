@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <div class="container mx-auto flex justify-between items-center h-full">
-      <div>
+      <div class="cursor-pointer" @click="onHomePage">
         <logo-moovie-time />
       </div>
       <div>
@@ -35,8 +35,8 @@ export default {
     items: MENUS,
   }),
   methods: {
-    onProfile() {
-      this.$router.push(`/categories`);
+    onHomePage() {
+      this.$router.push(`/`);
     },
 
     onGoBack() {
