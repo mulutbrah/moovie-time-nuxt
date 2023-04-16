@@ -1,6 +1,10 @@
 <template>
-  <div class="movie-card">
-    <img :src="movie.img" :alt="movie.title">
+  <div class="movie-card cursor-pointer" @click="onRedirectTo(movie.slug)">
+    <div class="movie-card__image">
+      <div class="rating">{{ movie.rating }}</div>
+      <img :src="movie.img" :alt="movie.title">
+    </div>
+
     <h3>{{ movie.title }}</h3>
     <p>{{ movie.year }}</p>
   </div>
@@ -12,8 +16,14 @@ export default {
     movie: {
       type: Object,
       required: true
-    }
-  }
+    },
+  },
+
+  methods: {
+    onRedirectTo(val) {
+      this.$emit('on:redirect', val)
+    },
+  },
 }
 </script>
   
@@ -22,11 +32,24 @@ export default {
   color:#fff;
   margin: 1rem;
 
-  img {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 0.5rem;
+  &__image {
+    position: relative;
+
+    .rating {
+      background: rgba(30, 35, 43, 0.8);
+      border-radius: 0 0.5rem 0 0;
+      top: 0;
+      right: 0;
+      padding: 5px 10px;
+      position: absolute;
+    }
+    
+    img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
   }
 
   h3 {

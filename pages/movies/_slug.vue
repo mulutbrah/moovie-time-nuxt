@@ -1,0 +1,3 @@
+<template>
+    <movies-detail />
+</template>

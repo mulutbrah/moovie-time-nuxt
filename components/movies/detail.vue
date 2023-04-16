@@ -4,24 +4,22 @@
 
         <div class="discover-movies container mx-auto">
             <div class="flex justify-between items-center">
-                <h3 class="title">Discover Movies</h3>
-
-                <div class="flex items-center">
-                    <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full mr-2">
-                        Popularity
-                    </button>
-
-                    <button class="bg-stone-900 hover:bg-stone-950 text-white font-bold py-2 px-4 rounded-full">
-                        Release Date
-                    </button>
-                </div>
+                <h3 class="title">Movies</h3>
             </div>
 
-            <div class="grid grid-cols-5 gap-6">
-                <cards :movie="movie" v-for="(movie, index) in movies" :key="index" 
-                    @click="onMovieDetail(movie.slug)"
-                    @on:redirect="onRedirectTo"
-                />
+            <div class="flex">
+                <div class="mr-3">
+                    <movies-filter />
+                </div>
+
+                <div>
+                    <div class="grid grid-cols-5 gap-6">
+                        <cards :movie="movie" v-for="(movie, index) in movies" :key="index" 
+                            @click="onMovieDetail(movie.slug)"
+                            @on:redirect="onRedirectTo"
+                        />
+                    </div>
+                </div>
             </div>
         </div>
     </div>
