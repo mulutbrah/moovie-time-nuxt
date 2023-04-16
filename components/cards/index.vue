@@ -1,17 +1,48 @@
 <template>
-  <div class="movie-card cursor-pointer" @click="onRedirectTo(movie.slug)">
-    <div class="movie-card__image">
-      <div class="rating">{{ movie.rating }}</div>
-      <img :src="movie.img" :alt="movie.title">
-    </div>
+  <div class="movie-card cursor-pointer" 
+  v-on:mouseenter="isHovered = true" v-on:mouseleave="isHovered = false" v-bind:class="{ 'hovered': isHovered }"
+  >
+    <div>
+      <div class="relative">
+        <div class="movie-card__image">
+          <div class="rating">{{ movie.rating }}</div>
+          <img :src="movie.img" :alt="movie.title">
+        </div>
 
-    <h3>{{ movie.title }}</h3>
-    <p>{{ movie.year }}</p>
+        <div v-if="isHovered" class="movie-card__hovered bg-slate-900 p-3 text-center flex flex-col justify-center items-center">
+          <div class="text-xl flex items-center">
+            <logo-star />
+            
+            <div class="ml-2">
+              {{ movie.rating }}
+            </div>
+          </div>
+
+          <div class="text-l py-7 font-semibold">
+            Action
+          </div>
+
+          <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full w-28"
+          @click="onRedirectTo(movie.slug)">
+            View
+          </button>
+        </div>
+      </div>
+
+      <h3>{{ movie.title }}</h3>
+      <p>{{ movie.year }}</p>
+    </div>
   </div>
 </template>
   
 <script>
 export default {
+  data() {
+    return {
+      isHovered: false
+    };
+  },
+
   props: {
     movie: {
       type: Object,
@@ -31,6 +62,15 @@ export default {
 .movie-card {
   color:#fff;
   margin: 1rem;
+
+  &__hovered {
+    border-radius: 0.5rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
 
   &__image {
     position: relative;
